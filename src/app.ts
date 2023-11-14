@@ -1,3 +1,9 @@
-const userName: string = 'Andrés'
+import { Server } from "./presentation/server"
 
-console.log(userName)
+const main = async () => {
+    Server.start()
+}
+
+(async () => {
+    await main()
+})()
