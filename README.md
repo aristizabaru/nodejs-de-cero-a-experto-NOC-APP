@@ -12,7 +12,7 @@ El proyecto desarrollado a continuación es un sistema de monitoreo (NOC). En el
 
 ## Instalación del proyecto
 
-Para correr la aplicación siga los siguientes pasos
+Para instalar el proyecto siga los siguientes pasos
 
 Instalar módulos o dependencias
 
@@ -26,6 +26,17 @@ Para ejecutar el proyecto se deben seguir los siguientes pasos:
 
 1. Clonar el archivo `.env.template` a `.env`
 2. Configurar variables de entorno
+
+```
+PORT=3000
+
+MAILER_EMAIL=
+MAILER_SECRET_KEY=
+
+PROD=false
+
+```
+
 3. Correr el proyecto usando alguno de los siguientes scripts
 
 Ejecutar entorno de desarrollo
