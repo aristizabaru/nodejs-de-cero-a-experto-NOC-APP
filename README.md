@@ -37,7 +37,7 @@ PROD=false
 
 ```
 
-3. Correr el proyecto usando alguno de los siguientes scripts
+3. Correr el proyecto usando alguno de los siguientes scripts según el entorno
 
 Ejecutar entorno de desarrollo
 
