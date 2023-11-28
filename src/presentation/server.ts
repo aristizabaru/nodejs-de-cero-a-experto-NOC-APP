@@ -13,12 +13,12 @@ export class Server {
     public static start() {
         console.log('Server started...')
 
-        new SendEmailLogs(emailService, fileSystemLogRepository).execute(
-            [
-                'andres.aristizabal@gmail.com',
-                'andres.aristizabal@tekiagency.com',
-                'andres.aristizabal@plm.com.co',
-            ])
+        // new SendEmailLogs(emailService, fileSystemLogRepository).execute(
+        //     [
+        //         'andres.aristizabal@gmail.com',
+        //         'andres.aristizabal@tekiagency.com',
+        //         'andres.aristizabal@plm.com.co',
+        //     ])
 
         // CronService.createJob(
         //     '*/5 * * * * *',
