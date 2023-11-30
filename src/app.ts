@@ -15,8 +15,7 @@ const main = async () => {
 
     // await newLog.save()
 
-    console.log(newLog)
-    // Server.start()
+    Server.start()
 }
 
 (async () => {

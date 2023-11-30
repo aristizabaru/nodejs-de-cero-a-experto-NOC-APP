@@ -37,7 +37,7 @@ export class LogEntity {
     static fromObjetc(object: { [key: string]: any }): LogEntity {
         const { message, level, createdAt, origin } = object
 
-        // En este punto se pueden hacer validaciones
+        // En este punto se pueden hacer validaciones como que debe tener mensaje
         const log = new LogEntity({ message, level, createdAt, origin })
 
         return log
