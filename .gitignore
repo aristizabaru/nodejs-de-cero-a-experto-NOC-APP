@@ -14,4 +14,3 @@ logs/
 mongo/
 !src/data/mongo
 postgres/
-!src/data/postgres
