@@ -26,7 +26,7 @@ export class Server {
     public static async start() {
         console.log('Server started...')
 
-        // new SendEmailLogs(emailService, logRepository).execute(
+        // new SendEmailLogs(emailService, fsLogRepository).execute(
         //     [
         //         'andres.aristizabal@gmail.com',
         //         'andres.aristizabal@tekiagency.com',
@@ -42,7 +42,9 @@ export class Server {
                 new CheckServiceMultiple(
                     [fsLogRepository, mongoLogRepository, postgresLogRepository],
                     () => console.log(`${url} is ok`),
-                    (error) => console.log(error)
+                    (error) => {
+                        console.log(error)
+                    }
                 ).execute(url)
             }
         )

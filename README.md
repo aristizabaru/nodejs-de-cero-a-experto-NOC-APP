@@ -9,6 +9,7 @@ El proyecto desarrollado a continuación es un sistema de monitoreo (NOC). En el
 ## Requerimientos
 
 - Node 20.9.0 LTS
+- Docker
 
 ## Instalación del proyecto
 
@@ -37,7 +38,21 @@ PROD=false
 
 ```
 
-3. Correr el proyecto usando alguno de los siguientes scripts según el entorno
+3. Levantar las bases de datos
+
+```
+docker compose up -d
+
+```
+
+4. Generar las migraciones de Prisma a la base de dato de Postgres
+
+```
+npx prisma migrate dev
+
+```
+
+5. Correr el proyecto usando alguno de los siguientes scripts según el entorno
 
 Ejecutar entorno de desarrollo
 
