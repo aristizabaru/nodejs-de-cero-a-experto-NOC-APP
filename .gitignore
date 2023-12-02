@@ -1,8 +1,17 @@
+# npm
 node_modules/
 package-lock.json
-dist/
+
+# dist
 .DS_Store
+dist/
+
+# enviroment
 logs/
 .env
+
+# database
 mongo/
 !src/data/mongo
+postgres/
+!src/data/postgres
