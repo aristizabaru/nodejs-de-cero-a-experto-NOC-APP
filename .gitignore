@@ -12,5 +12,11 @@ logs/
 
 # database
 mongo/
+mongo-test/
 !src/data/mongo
 postgres/
+postgres-test/
+
+# test
+.env.test
+coverage/

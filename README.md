@@ -65,3 +65,7 @@ Ejecutar entorno de producción
 ```
 npm start
 ```
+
+## Testing
+
+Para ejecutar correctamente los test debe hacer una copia del .env.template a .env.test y configurar las variables de entorno de pruebas
